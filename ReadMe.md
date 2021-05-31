@@ -1,4 +1,4 @@
-# ibizaCRM - Docs
+# vtigerCRM - Docs
 
 ## Select(table, campo, valor)
 Selecciona toda la tabla y regresa un objeto con todos los datos del contacto elegido.
