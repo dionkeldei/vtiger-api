@@ -1,6 +1,6 @@
 <?php
 
-namespace ibizaBMB\CRM;
+namespace dionkeldei\VtigerApi;
 
 class CRM extends CRMCreate{
         function __construct($url,$user,$token)

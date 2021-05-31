@@ -1,6 +1,6 @@
 <?php
 
-namespace ibizaBMB\CRM;
+namespace dionkeldei\VtigerApi;
 
 use GuzzleHttp\Client;
 

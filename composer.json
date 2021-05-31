@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "dionkeldei\\VtigerCRM\\": "src"
+            "dionkeldei\\VtigerApi\\": "src"
         }
     },
     "extra":{
