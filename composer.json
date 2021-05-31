@@ -1,0 +1,21 @@
+{
+    "name": "dionkeldei/vtiger-api",
+    "description": "Package with different methods for working with vTiger CRM",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodolfo Gonzalez",
+            "email": "dionkeldei@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "dionkeldei\\CRM\\": "src"
+        }
+    },
+    "extra":{
+    }
+}
