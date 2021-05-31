@@ -18,7 +18,7 @@ class CRMEdit extends CRMConn{
 
           $queryParam = urldecode($query);
           // Obtener la cuenta
-           $getUserDetail = $client->request('GET', VT_URL, [
+           $getUserDetail = $client->request('GET', $this->accessUrl, [
                'query' => [
                    'sessionName' => $sessionId,
                    'operation' => 'query',
@@ -35,7 +35,7 @@ class CRMEdit extends CRMConn{
         $sessionId = $vtiger->result->sessionName;
         $client = new Client(); //GuzzleHttp\Client
         // Obtener el contacto que se modificara
-                 $reponse = $client->request('GET', VT_URL, [
+                 $reponse = $client->request('GET', $this->accessUrl, [
                      'query' => [
                          'sessionName' => $sessionId,
                          'operation' => 'retrieve',
@@ -52,7 +52,7 @@ class CRMEdit extends CRMConn{
                 }
                 $objectJson = json_encode($retrievedObject);
                 //Modificacion del contacto
-                $updatecontact = $client->request('POST', VT_URL, [
+                $updatecontact = $client->request('POST', $this->accessUrl, [
                     'form_params' => [
                         'sessionName' => $sessionId,
                         'operation' => 'update',

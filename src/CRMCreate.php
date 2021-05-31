@@ -11,7 +11,7 @@ class CRMCreate extends CRMConfig{
     $vtiger = $this->Connect();
     $sessionId = $vtiger->result->sessionName;
     $objectJson = json_encode($contactData);
-    $createcontact = $client->request('POST', VT_URL, [
+    $createcontact = $client->request('POST', $this->accessUrl, [
         'form_params' => [
             'sessionName' => $sessionId,
             'operation' => 'create',
