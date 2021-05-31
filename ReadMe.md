@@ -23,7 +23,7 @@ Selecciona toda la tabla y regresa un objeto con todos los datos del contacto el
 Ejemplo:
 
 ```
-use dionkeldei/CRM/CRM as vtigerCRM;
+use dionkeldei/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
   $crm = new vtigerCRM;
@@ -65,7 +65,7 @@ $data = array(
 Ejemplo:
 
 ```
-use dionkeldei/CRM/CRM as vtigerCRM;
+use dionkeldei/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
   $crm = new vtigerCRM;
@@ -107,7 +107,7 @@ $data = array(
 Ejemplo:
 
 ```
-use dionkeldei/CRM/CRM as vtigerCRM;
+use dionkeldei/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
   $crm = new vtigerCRM;
@@ -127,7 +127,7 @@ Muestra los datos de acceso de el CRM.
 Ejemplo:
 
 ```
-use ibizaBMB/CRM/CRM as vtigerCRM;
+use ibizaBMB/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
   $CRM = new vtigerCRM;
