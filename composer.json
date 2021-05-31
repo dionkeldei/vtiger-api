@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-      "guzzlehttp/guzzle":"dev-master"
+      "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "psr-4": {
