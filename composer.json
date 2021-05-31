@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+      "php": ">=7.3",
       "guzzlehttp/guzzle":"dev-master"
     },
     "autoload": {
