@@ -2,7 +2,7 @@
 
 namespace ibizaBMB\CRM;
 
-class CRM extends CRMFind{
+class CRM extends CRMCreate{
         function __construct($url,$user,$token)
   {
       $this->accessUrl = $url;
