@@ -26,7 +26,7 @@ Ejemplo:
 use dionkeldei/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
-  $crm = new vtigerCRM;
+  $crm = new vtigerCRM('WebserviceURL','UserName','AccessToken');
   $datos = $crm->Select('Accounts','id','3x1234');
   print_r($datos);
 }
@@ -68,7 +68,7 @@ Ejemplo:
 use dionkeldei/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
-  $crm = new vtigerCRM;
+  $crm = new vtigerCRM('WebserviceURL','UserName','AccessToken');
   $data = array(
      'email' => "mimail@mail.com",
      'phone' => "45-675-98"
@@ -110,7 +110,7 @@ Ejemplo:
 use dionkeldei/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
-  $crm = new vtigerCRM;
+  $crm = new vtigerCRM('WebserviceURL','UserName','AccessToken');
   $data = array(
      'email' => "mimail@mail.com",
      'phone' => "45-675-98"
@@ -130,8 +130,8 @@ Ejemplo:
 use ibizaBMB/VtigerCRM/CRM as vtigerCRM;
 
 public function index{
-  $CRM = new vtigerCRM;
-         $datos = $CRM->Config();
+  $crm = new vtigerCRM('WebserviceURL','UserName','AccessToken');
+         $datos = $crm->Config();
          print_r($datos);
 }
 ```
